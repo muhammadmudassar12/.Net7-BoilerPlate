@@ -1,0 +1,7 @@
+{
+  "LoggerSettings": {
+    "AppName": "EMS20.WebApi",
+    "WriteToFile": false,
+    "StructuredConsoleLogging": true
+  }
+}

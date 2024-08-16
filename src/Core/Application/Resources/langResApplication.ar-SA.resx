@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountApprovedMessage" xml:space="preserve">
+    <value>تمت الموافقة على حسابك</value>
+  </data>
+  <data name="AccountApprovedTitle" xml:space="preserve">
+    <value>تمت الموافقة على الحساب</value>
+  </data>
+  <data name="AccountBlocked" xml:space="preserve">
+    <value>تم حظر حسابك</value>
+  </data>
+  <data name="AccountDeleted" xml:space="preserve">
+    <value>يرجى التسجيل أولا لتسجيل الدخول</value>
+  </data>
+  <data name="AccountNotCreatedPleaseCheckDetails" xml:space="preserve">
+    <value>لم يتم إنشاء الحساب ، يرجى التحقق من التفاصيل وإعادة التقديم</value>
+  </data>
+  <data name="AccountRejected" xml:space="preserve">
+    <value>تم رفض حسابك</value>
+  </data>
+  <data name="AlreadyExists" xml:space="preserve">
+    <value>الهيئة "{0}" موجودة بالفعل</value>
+  </data>
+  <data name="AppointmentAlreadyExists" xml:space="preserve">
+    <value>موعدك موجود بالفعل في نفس التاريخ والوقت</value>
+  </data>
+  <data name="AppointmentAssignedToLawyer" xml:space="preserve">
+    <value>تم تعيين موعد جديد بالمرجع رقم  {1}  لك. الموعد هو في {0}.</value>
+  </data>
+  <data name="AppointmentAssignedToLawyerAdmin" xml:space="preserve">
+    <value>تم تعيين موعد بالمرجع رقم {1} مع المحامي '{0}'.</value>
+  </data>
+  <data name="AppointmentBooked" xml:space="preserve">
+    <value>تم حجز الموعد</value>
+  </data>
+  <data name="AppointmentChat" xml:space="preserve">
+    <value>دردشة الموعد</value>
+  </data>
+  <data name="AppointmentChatMsgToUser" xml:space="preserve">
+    <value>لديك دردشة موعد جديد</value>
+  </data>
+  <data name="AppointmentCancelled" xml:space="preserve">
+    <value>تم إلغاء الموعد بنجاح</value>
+  </data>
+  <data name="AppointmentCancelledTitle" xml:space="preserve">
+    <value>تم إلغاء الموعد</value>
+  </data>
+  <data name="AppointmentCancelMsgToCustomer" xml:space="preserve">
+    <value>تم إلغاء موعدك بالمرجع رقم{0} بنجاح، سيتم استرداد المبلغ إلى حسابك البنكي.</value>
+  </data>
+  <data name="AppointmentCancelMsgToLawyer" xml:space="preserve">
+    <value>تم إلغاء موعدك بالمرجع رقم {0} من قبل العميل، يرجى الاطلاع على التفاصيل من خلال التطبيق.</value>
+  </data>
+  <data name="AppointmentDateReserved" xml:space="preserve">
+    <value>موعد هذا التاريخ محجوز بالفعل</value>
+  </data>
+  <data name="AppointmentInPreviousDate" xml:space="preserve">
+    <value>لا يمكن حجز موعد في التاريخ والوقت السابقين</value>
+  </data>
+  <data name="AppointmentIsCreated" xml:space="preserve">
+    <value>تم حجز الموعد بنجاح، شكراً لك</value>
+  </data>
+  <data name="AppointmentNotExists" xml:space="preserve">
+    <value>الموعد غير موجود</value>
+  </data>
+  <data name="AppointmentReassigned" xml:space="preserve">
+    <value>تمت إعادة تعيين الموعد</value>
+  </data>
+  <data name="AppointmentNotUpdated" xml:space="preserve">
+    <value>لم يتم تحديث الموعد</value>
+  </data>
+  <data name="AppointmentUpdated" xml:space="preserve">
+    <value>تم تحديث الموعد بنجاح</value>
+  </data>
+  <data name="AppointOrMasterReqIdRequired" xml:space="preserve">
+    <value>يجب إدخال رقم العرض الخاص بالحجز أو الطلبات أو الخدمات الإضافية</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>مقبول</value>
+  </data>
+  <data name="BidApproved" xml:space="preserve">
+    <value>تم قبول العرض</value>
+  </data>
+  <data name="BidApprovedToAdmin" xml:space="preserve">
+    <value>وافق العميل على العرض</value>
+  </data>
+  <data name="BiddingTimeExpired" xml:space="preserve">
+    <value>انتهى وقت العرض</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>ممنوع</value>
+  </data>
+  <data name="Booked" xml:space="preserve">
+    <value>محجوز</value>
+  </data>
+  <data name="Both" xml:space="preserve">
+    <value>كلاهما</value>
+  </data>
+  <data name="CallInitialized" xml:space="preserve">
+    <value>تم اجراء المكالمة</value>
+  </data>
+  <data name="CallsAreDisabled" xml:space="preserve">
+    <value>تم تعطيل المكالمات</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>تم الإلغاء</value>
+  </data>
+  <data name="ClickResetPasswordLink" xml:space="preserve">
+    <value>{0}   لاسترجاع كلمة المرور الخاصة بتطبيق شورى، اضغط على الرابط التالي  </value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>مغلق</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>مكتمل</value>
+  </data>
+  <data name="CustomerPhoneNumberNotExists" xml:space="preserve">
+    <value>رقم هاتف العميل غير موجود</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>محذوف</value>
+  </data>
+  <data name="DeletedAlready" xml:space="preserve">
+    <value>تم حذفه بالفعل</value>
+  </data>
+  <data name="DeleteSuccessfully" xml:space="preserve">
+    <value>تم الحذف بنجاح</value>
+  </data>
+  <data name="DiscountNote" xml:space="preserve">
+    <value>خصم {0}% (الحد الأقصى {1} ريال سعودي)</value>
+  </data>
+  <data name="EmailSendSuccesfully" xml:space="preserve">
+    <value>تم إرسال البريد الإلكتروني بنجاح</value>
+  </data>
+  <data name="EmployeeNotFound" xml:space="preserve">
+    <value>لم يتم العثور على الموظف</value>
+  </data>
+  <data name="EmployeePermissionUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث إذن الموظف بنجاح.</value>
+  </data>
+  <data name="ErrorFileDelete" xml:space="preserve">
+    <value>حدث خطأ أثناء حذف {0} ملف</value>
+  </data>
+  <data name="ErrorOnAddingPass" xml:space="preserve">
+    <value>حدث خطأ أثناء إضافة كلمة مرور جديدة</value>
+  </data>
+  <data name="ErrorOnChangingPass" xml:space="preserve">
+    <value>حدث خطأ أثناء تغيير كلمة المرور القديمة</value>
+  </data>
+  <data name="ErrorSendingOTP" xml:space="preserve">
+    <value>خطأ أثناء إرسال رمز التحقق</value>
+  </data>
+  <data name="ErrorWhileLoginByNumber" xml:space="preserve">
+    <value>خطأ أثناء تسجيل الدخول باستخدام {0} {1}</value>
+  </data>
+  <data name="ErrorWhileMobileRequest" xml:space="preserve">
+    <value>حدث خطأ أثناء استكمال تفاصيل طلب الهاتف المحمول</value>
+  </data>
+  <data name="ErrorWhileUpdatingLawyerAvailability" xml:space="preserve">
+    <value>حدث خطأ أثناء إنشاء فترات توافر المحامي</value>
+  </data>
+  <data name="ErrorWhileUpdatingUserInfo" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث معلومات المستخدم</value>
+  </data>
+  <data name="ErrorWhileUpdatingPermissionInfo" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث معلومات الإذن</value>
+  </data>
+  <data name="ErrorWhileUpdatingEmployeePermissionInfo" xml:space="preserve">
+    <value>حدث خطأ أثناء تحديث معلومات إذن الموظف</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>انتهى</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>فشل</value>
+  </data>
+  <data name="FileNameCantBeNullOrEmpty" xml:space="preserve">
+    <value>لا يمكن أن يكون اسم الملف فارغاً</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>لم يتم العثور على الملف</value>
+  </data>
+  <data name="GPTStatus" xml:space="preserve">
+    <value>حالة طلبك</value>
+  </data>
+  <data name="GPTStatusIsApproved" xml:space="preserve">
+    <value>تم الموافقة على طلبك لتجربة مشير</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>بيانات التسجيل "{0} غير صالحة"</value>
+  </data>
+  <data name="InvalidCredentialsForEmail" xml:space="preserve">
+    <value>بيانات التسجيل "{0} غير صالحة"</value>
+  </data>
+  <data name="InvalidPromotionCode" xml:space="preserve">
+    <value>لم يتم العثور على عروض أو أن الرمز الترويجي غير صالح</value>
+  </data>
+  <data name="InvalidRefreshToken" xml:space="preserve">
+    <value>رمز تحديث غير صالح</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>رمز غير صالح</value>
+  </data>
+  <data name="IsPromoCodeApplicableForMobileCat" xml:space="preserve">
+    <value>كود الخصم لا ينطبق على التخصص المختار</value>
+  </data>
+  <data name="IsPromoCodeApplicableForPackage" xml:space="preserve">
+    <value>كود الخصم لا ينطبق على هذه الباقه</value>
+  </data>
+  <data name="LawyerAssigned" xml:space="preserve">
+    <value>تم تعيين المحامي للموعد بنجاح</value>
+  </data>
+  <data name="LawyerCanNotBeDeleteBlockRej" xml:space="preserve">
+    <value>لا يمكن حظر أو رفض هذا المحامي لوجود مواعيد مستقبلية معلقة</value>
+  </data>
+  <data name="LawyerCertificateNameExists" xml:space="preserve">
+    <value>اسم الشهادة التعليمية موجود بالفعل يرجى تغييره</value>
+  </data>
+  <data name="LawyerExtraServiceOfferCreate" xml:space="preserve">
+    <value>تم استقبال طلبك وجاري معالجته، سنتواصل معك في خلال {0}</value>
+  </data>
+  <data name="LawyerIsBusy" xml:space="preserve">
+    <value>المحامي مشغول في هذا الموعد، ابحث عن محامٍ آخر</value>
+  </data>
+  <data name="LawyerNotCreated" xml:space="preserve">
+    <value>فشل في إنشاء صفحة المحامي</value>
+  </data>
+  <data name="LawyerNotFound" xml:space="preserve">
+    <value>لم يتم العثور على محامي</value>
+  </data>
+  <data name="LawyerPhoneNumberNotExists" xml:space="preserve">
+    <value>رقم هاتف المحامي غير موجود</value>
+  </data>
+  <data name="MasterRequestCreate" xml:space="preserve">
+    <value>تم استقبال طلبك وجاري معالجته، سنتواصل معك في خلال {0}</value>
+  </data>
+  <data name="MasterRequestNotExists" xml:space="preserve">
+    <value>الطلب غير موجود</value>
+  </data>
+  <data name="MissedAppointmentLawyer" xml:space="preserve">
+    <value>لقد فاتك الموعد  بالمرجع رقم  {1} في {0}</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>الهاتف المحمول</value>
+  </data>
+  <data name="MobileUserCreatedSuccessfully" xml:space="preserve">
+    <value>تم إنشاء حساب مستخدم الهاتف المحمول بنجاح</value>
+  </data>
+  <data name="MRCanNotBeCancelBCUndrProc" xml:space="preserve">
+    <value>لا يمكن إلغاء الطلب لأنه تحت التنفيذ</value>
+  </data>
+  <data name="MSCanBeMarkAsCancelBCAprovBidFound" xml:space="preserve">
+    <value>لا يمكن إلغاء الطلب بسبب قبول عرض</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>اسم</value>
+  </data>
+  <data name="NewAppointmentAssigned" xml:space="preserve">
+    <value>تم تعيين موعد جديد </value>
+  </data>
+  <data name="NewBid" xml:space="preserve">
+    <value>عرض جديد</value>
+  </data>
+  <data name="NewBidCreate" xml:space="preserve">
+    <value>تم إنشاء عرض جديد</value>
+  </data>
+  <data name="NewBidCreateToAdmin" xml:space="preserve">
+    <value>تم إضافة عرض جديد من قبل المحامي</value>
+  </data>
+  <data name="NewMessage" xml:space="preserve">
+    <value>رسالة جديدة</value>
+  </data>
+  <data name="NewRequestMessage" xml:space="preserve">
+    <value>لقد تلقيت طلبًا جديدًا بالمرجع رقم</value>
+  </data>
+  <data name="NewRequestMessageToAdmin" xml:space="preserve">
+    <value>تمت إضافة طلب جديد بالمرجع رقم {0} من قبل العميل.</value>
+  </data>
+  <data name="NewRequestTitle" xml:space="preserve">
+    <value>طلب جديد</value>
+  </data>
+  <data name="NoAccessToCreateAvailability" xml:space="preserve">
+    <value>حالة حساب المحامي هي {0}. برجاء التواصل مع المسؤول لإنشاء خانات متاحة جديدة</value>
+  </data>
+  <data name="NoAppointmentAvailable" xml:space="preserve">
+    <value>لا توجد مواعد متاحة للحساب {0}</value>
+  </data>
+  <data name="NoApprovedBidFound" xml:space="preserve">
+    <value>لم يتم العثور على عروض مقبولة لطلبك ({0})</value>
+  </data>
+  <data name="NoAvailableSchedule" xml:space="preserve">
+    <value>لا توجد مواعيد متوفرة</value>
+  </data>
+  <data name="NoAvailableSlot" xml:space="preserve">
+    <value>لا يوجد مكان متاح للمحامي</value>
+  </data>
+  <data name="NoLawyerOnUserAccount" xml:space="preserve">
+    <value>لا يوجد محامي متاح لحسابك، برجاء التواصل مع مسؤول</value>
+  </data>
+  <data name="NoPaymentExists" xml:space="preserve">
+    <value>لا توجد دفعة متاحة، برجاء التأكد من وسيلة الدفع</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>لم يتم العثور على سجلات</value>
+  </data>
+  <data name="NoResponseFromPaymentServer" xml:space="preserve">
+    <value>لم يتم استقبال رد من خادم الدفع</value>
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value>لا يسمح لك بتسجيل الدخول، برجاء التواصل مع مسؤول</value>
+  </data>
+  <data name="NotifyAdminMissAppointmentMessage" xml:space="preserve">
+    <value> الموعد الفائت للمحامي : {0}
+الهاتف : {1}
+وقت الموعد : {2}</value>
+  </data>
+  <data name="NotifyAdminMissAppointmentTitle" xml:space="preserve">
+    <value>موعد فائت</value>
+  </data>
+  <data name="NotifyAdminNewAppointmentMessage" xml:space="preserve">
+    <value>المرجع رقم: {3}
+الموعد القادم للمحامي : {0}
+العميل : {1}
+موعد التاريخ والوقت : {2}</value>
+  </data>
+  <data name="NotifyAdminNewAppointmentTitle" xml:space="preserve">
+    <value>تم حجز موعد جديد</value>
+  </data>
+  <data name="NotifyAdminUpcomingAppointmentMessage" xml:space="preserve">
+    <value>المرجع رقم: {3}
+المحامي: {0}
+الهاتف: {1}
+وقت الموعد: {2}</value>
+  </data>
+  <data name="NotifyAdminUpcomingAppointmentTitle" xml:space="preserve">
+    <value>الموعد القادم للعميل</value>
+  </data>
+  <data name="OTPCreated" xml:space="preserve">
+    <value>تم إنشاء رمز التحقق قبل أقل من دقيقة، برجاء المحاولة مجدداً</value>
+  </data>
+  <data name="OTPSendSuccessfully" xml:space="preserve">
+    <value>تم إرسال رمز التحقق بنجاح</value>
+  </data>
+  <data name="ParentAppointmentIdIsNotValidOrRecordNotFound" xml:space="preserve">
+    <value>رقم الموعد غير صحيح أو غير موجود</value>
+  </data>
+  <data name="PasswordChangeSuccessfully" xml:space="preserve">
+    <value>تم تغيير الرقم السري بنجاح</value>
+  </data>
+  <data name="PaymentPending" xml:space="preserve">
+    <value>بانتظار الدفع</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>قيد الانتظار</value>
+  </data>
+  <data name="PermissionNotAdded" xml:space="preserve">
+    <value>لا يمكن إنشاء الإذن</value>
+  </data>
+  <data name="PermissionUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث الإذن بنجاح.</value>
+  </data>
+  <data name="PermissionStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث حالة الإذن بنجاح.</value>
+  </data>
+  <data name="PhoneNoAlreadyExists" xml:space="preserve">
+    <value>رقم الهاتف المحمول {0} موجود بالفعل.</value>
+  </data>
+  <data name="PleaseDefineCategory" xml:space="preserve">
+    <value>برجاء تحديد فئة واحدة على الأقل</value>
+  </data>
+  <data name="PleaseDefineMasterCategory" xml:space="preserve">
+    <value>برجاء تحديد فئة رئيسية واحدة على الأقل</value>
+  </data>
+  <data name="PriorityIsNotDefined" xml:space="preserve">
+    <value>لم يتم تحديد الأولوية</value>
+  </data>
+  <data name="ProfileDeleteSuccessfully" xml:space="preserve">
+    <value>تم حذف الملف الشخصي بنجاح</value>
+  </data>
+  <data name="ProfileUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث الملف الشخصي بنجاح</value>
+  </data>
+  <data name="ProvideMasterRequestOrAppointmentId" xml:space="preserve">
+    <value>برجاء إدخال رقم الطلب أو الموعد</value>
+  </data>
+  <data name="RecordIsAlreadyUpdated" xml:space="preserve">
+    <value>تم تحديث السجل بالفعل</value>
+  </data>
+  <data name="RecordNotFound" xml:space="preserve">
+    <value>لم يتم العثور على أي سجل</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>تم تحديث السجل</value>
+  </data>
+  <data name="RegisterAsMobileUser" xml:space="preserve">
+    <value>لست مسجل كمستخدم هاتف محمول، برجاء التسجيل قبل تسجيل الدخول، شكراً لك</value>
+  </data>
+  <data name="RegisterWithTamara" xml:space="preserve">
+    <value>عذراً على الإزعاج، برجاء التسجيل عبر Tamara.co قبل إتمام الطلب</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>مرفوض</value>
+  </data>
+  <data name="RequestOrNameAlreadyExists" xml:space="preserve">
+    <value>رقم الطلب أو الاسم موجود بالفعل في قاعدة البيانات</value>
+  </data>
+  <data name="RequestTypeIdOrNameAlreadyExists" xml:space="preserve">
+    <value>رقم نوع الطلب أو الاسم موجود بالفعل في قاعدة البيانات</value>
+  </data>
+  <data name="RequiredPaymentService" xml:space="preserve">
+    <value>لم يتم تحديث خانة خدمة الدفع، برجاء تحديثها بالبيانات الصحيحة</value>
+  </data>
+  <data name="Reserved" xml:space="preserve">
+    <value>محجوز</value>
+  </data>
+  <data name="SaveSuccessfully" xml:space="preserve">
+    <value>تم الحفظ بنجاح</value>
+  </data>
+  <data name="ScheduleIdNotExist" xml:space="preserve">
+    <value>رقم الموعد غير موجود</value>
+  </data>
+  <data name="SelectPaymentService" xml:space="preserve">
+    <value>برجاء اختيار خدمة الدفع (OPPWA/TAMARA) قبل إتمام الطلب</value>
+  </data>
+  <data name="SentSuccessfully" xml:space="preserve">
+    <value>تم الإرسال بنجاح</value>
+  </data>
+  <data name="ShwraAppointment" xml:space="preserve">
+    <value>موعد شورى</value>
+  </data>
+  <data name="SmsAppointmentBookedClient" xml:space="preserve">
+    <value>تم حجز موعد الاستشارة الخاص بك مع المحامي بالمرجع رقم {2} في {0} الساعة {1}.</value>
+  </data>
+  <data name="SmsAppointmentBookedLawyer" xml:space="preserve">
+    <value>لقد تم حجز إستشارة لديك مع أحد العملاء
+ في يوم {0} الساعة : {1} بالمرجع رقم {2}</value>
+  </data>
+  <data name="SubTypeIdNotFound" xml:space="preserve">
+    <value>لم يتم العثور على رقم SubType</value>
+  </data>
+  <data name="ThirdPartyCallerAPIIssue" xml:space="preserve">
+    <value>حدثت مشكلة أثناء إرسال طلب إلى مشغل الخدمة</value>
+  </data>
+  <data name="UnknownIssue" xml:space="preserve">
+    <value>نواجه مشكلة غير معروفة</value>
+  </data>
+  <data name="UnSuccessfulUpdate" xml:space="preserve">
+    <value>لم يكتمل التحديث بنجاح</value>
+  </data>
+  <data name="UpcomingAppointment" xml:space="preserve">
+    <value>لديك موعد قادم في {0}</value>
+  </data>
+  <data name="UserAccountStatusMessage" xml:space="preserve">
+    <value>لا يمكنك تسجيل الدخول لأن حالة حسابك هي {0}</value>
+  </data>
+  <data name="UserAlreadyExists" xml:space="preserve">
+    <value>المستخدم موجود اصلا</value>
+  </data>
+  <data name="UserCanNotTakeAppointmentTimeIsPassed" xml:space="preserve">
+    <value>لا يمكنك طلب موعد لأن الوقت المحدد قد مضى. يرجى إعادة المحاولة لتحديد وقت مختلف ومحاولة ملء الطلب قبل الوقت المحدد</value>
+  </data>
+  <data name="UserLoggedInSuccessfully" xml:space="preserve">
+    <value>تم تسجيل دخول المستخدم بنجاح</value>
+  </data>
+  <data name="UserNameExists" xml:space="preserve">
+    <value>اسم المستخدم {0} موجود بالفعل</value>
+  </data>
+  <data name="UserNotExistsWithPhone" xml:space="preserve">
+    <value>لا يوجد مستخدم مسجل برقم هاتف {0}</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>لم يتم العثور على المستخدم</value>
+  </data>
+  <data name="UserWithEmailNotExists" xml:space="preserve">
+    <value>المستخدم {0} غير موجود</value>
+  </data>
+  <data name="UserWithPhoneNoNotFound" xml:space="preserve">
+    <value>لا يوجد مستخدم مسجل برقم هاتف {0} {1}</value>
+  </data>
+  <data name="ValidDateRange" xml:space="preserve">
+    <value>برجاء إدخال نطاق زمني صحيح</value>
+  </data>
+  <data name="Web" xml:space="preserve">
+    <value>الويب</value>
+  </data>
+  <data name="WrongEmail" xml:space="preserve">
+    <value>بريد إلكتروني خاطئ</value>
+  </data>
+  <data name="YouCanNotDeleteBecauseApproved" xml:space="preserve">
+    <value>لا يمكنك حذف العرض الآن بعد قبوله من العميل</value>
+  </data>
+  <data name="YouHaveAlreadyPlaceYourBid" xml:space="preserve">
+    <value>قمت بالفعل بتقديم عرض</value>
+  </data>
+  <data name="YouHaveMarkedCompleted" xml:space="preserve">
+    <value>تم إنهاء العمل، لا يمكنك إرسال المزيد من الرسائل</value>
+  </data>
+  <data name="YourAccountIsApporvedAlready" xml:space="preserve">
+    <value>تمت الموافقة على حسابك بالفعل</value>
+  </data>
+  <data name="YourAccountIsNotActive" xml:space="preserve">
+    <value>حسابك معلق</value>
+  </data>
+  <data name="YourBidIsApproved" xml:space="preserve">
+    <value>تم قبول عرضك</value>
+  </data>
+  <data name="YourRequestHasBeenSubmitted" xml:space="preserve">
+    <value>تم تقديم طلبك</value>
+  </data>
+  <data name="NotifyAppointmentTimeChangedTitle" xml:space="preserve">
+    <value>تم تغيير وقت الموعد</value>
+  </data>
+  <data name="NotifyAppointmentTimeUpdateMsg" xml:space="preserve">
+    <value>تم تغيير موعدك ذو المرجع رقم {0} إلى {1}</value>
+  </data>
+  <data name="DiscountAmountLimit" xml:space="preserve">
+    <value>ڈسکاؤنٹ کی رقم کی حد 1000 سے زیادہ نہیں ہو سکتی</value>
+  </data>
+  <data name="DiscountLimit" xml:space="preserve">
+    <value>ڈسکاؤنٹ کی حد 100 سے زیادہ نہیں ہو سکتی</value>
+  </data>
+  <data name="LawyerCanNotBeDeleted" xml:space="preserve">
+    <value>لا يمكن حذف حسابك حاليا بسبب وجود موعد قادم</value>
+  </data>
+  <data name="AppointmentPaymentPendingClient" xml:space="preserve">
+    <value>تم تحديد موعد الاستشارة الخاص بك بالرقم المرجعي {0} في {1} في {2}. يرجى تسجيل الدخول على تطبيق شورى لمتابعة عملية الدفع.</value>
+  </data>
+</root>

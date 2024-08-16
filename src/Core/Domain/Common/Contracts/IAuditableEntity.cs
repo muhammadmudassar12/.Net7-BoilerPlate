@@ -1,0 +1,10 @@
+namespace EMS20.WebApi.Domain.Common.Contracts;
+
+public interface IAuditableEntity
+{
+    public bool IsActive {  get; set; } 
+    public Guid? CreatedBy { get; set; }
+    public DateTime? CreatedOn { get; }
+    public Guid? LastModifiedBy { get; set; }
+    public DateTime? LastModifiedOn { get; set; }
+}

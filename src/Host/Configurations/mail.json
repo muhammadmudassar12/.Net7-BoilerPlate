@@ -1,0 +1,10 @@
+{
+  "MailSettings": {
+    "DisplayName": "EMSFit-20",
+    "From": "noreply.ems20@gmail.com",
+    "Host": "smtp.gmail.com",
+    "Password": "zjsk nuxq nwlf epwt", // Replace with your App Password or regular Gmail password
+    "Port": 587,
+    "UserName": "noreply.ems20@gmail.com"
+  }
+}

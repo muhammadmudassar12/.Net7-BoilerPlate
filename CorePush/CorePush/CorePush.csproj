@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <Title>Server Side library for sending ✅Web, ✅Android and ✅iOS Push Notifications</Title>
+    <PackageDescription>Server Side library for sending ✅Web, ✅Android and ✅iOS Push Notifications</PackageDescription>
+    <Description>Server Side library for sending ✅Web, ✅Android and ✅iOS Push Notifications</Description>
+    <Summary>Server Side library for sending ✅Web, ✅Android and ✅iOS Push Notifications</Summary>
+    <Authors>andrei-m-code</Authors>
+
+    <AssemblyVersion>4.1.0</AssemblyVersion>
+    <FileVersion>4.1.0</FileVersion>
+    <Version>4.1.0</Version>
+    
+    <PackageProjectUrl>https://github.com/andrei-m-code/CorePush</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/andrei-m-code/CorePush</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    
+    <PackageId>CorePush</PackageId>
+    <PackageIcon>Icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>push-notifications android-push-notifications ios-push-notifications web-push web-push-notifications apn fcm firebase</PackageTags>
+
+    <PackageReleaseNotes>
+v4.1.0
+- Bugfixing issues with APNS response handling
+      
+v4.0.2
+- Issues with Firebase configuration      
+      
+v4.0.1
+- Use .NET 7.0 as a target framework
+- Use System.Text.Json as a default serializer
+- [BREAKING CHANGE] Firebase Messaging uses HTTP v1 API
+- [BREAKING CHANGE] Different configuration is required because of the HTTP v1
+      
+v3.1.x 
+- Memory optimizations
+- Ability to change FCM and APN base URL for testing purposes
+      
+v3.0.11 - v3.0.12
+- Package information update
+
+v3.0.5 - v3.0.10
+- Minor code improvements
+- Documentation update
+- Package icon
+
+v3.0.4
+- Bugfixes with FcmSender authorization and serialization
+- CorePush.Tester added to make testing easier
+
+v3.0.3
+- Cancellation tokens added to the interface with CancellationToken.None by default
+
+v3.0.2
+- Reverted Portable.BouncyCastle so that the lib can work in shared envs (like Azure App Service)
+- Apple certificate cleanup added
+- Minor code improvements added
+
+v3.0.1
+- Removed Portable.BouncyCastle and System.Security.Cryptography.Cng dependency
+
+v3.0.0
+- Added ApnSettings and FcmSettings
+- HttpClient has to be injected for FcmSender and ApnSender
+- Both ApnSender and FcmSender are not IDisposable anymore as HttpClient is injected and managed outside
+- ApnSender JWT token expiration is managed according to Apple documentation
+    </PackageReleaseNotes>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="..\Icon.png" Pack="true" PackagePath="Icon.png" />
+    <None Include="..\README.md" Pack="true" PackagePath="README.md" />
+  </ItemGroup>
+
+</Project>
